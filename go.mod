@@ -1,4 +1,4 @@
-module battery-management
+module system-management
 
 go 1.25.0
 
