@@ -1,6 +1,6 @@
 package models
 
-type Disk struct {
+type DiskInfo struct {
 	MountPoint string `json:"mount_point"`
 	TotalSize  uint64 `json:"total_size"`
 	UsedSize   uint64 `json:"used_size"`

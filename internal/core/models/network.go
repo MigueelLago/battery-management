@@ -1,6 +1,6 @@
 package models
 
-type Network struct {
+type NetworkInfo struct {
 	InterfaceName string   `json:"interface_name"`
 	Addresses     []string `json:"addresses"` // IPV4 and/or IPv6 addresses
 	IsUp          bool     `json:"is_up"`
